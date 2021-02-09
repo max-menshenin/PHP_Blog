@@ -11,8 +11,8 @@
 <body>
 <form action="save_user.php" method="post"
 <h1>Register new user</h1><br>
-<label>Enter login: </label>
-<br>
-
+<label>Login: </label><input name="login"><br>
+<label>Password: </label><input name="password"><br>
+<button type="submit" class="btn btn-primary">Register</button>
 </body>
 </html>
