@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -14,5 +14,6 @@
 <label>Login: </label><input name="login"><br>
 <label>Password: </label><input name="password"><br>
 <button type="submit" class="btn btn-primary">Register</button>
+</form
 </body>
 </html>
