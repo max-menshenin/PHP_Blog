@@ -7,12 +7,14 @@ if (isset($_POST['login'])) {
         unset($login);
     }
 }
+
 if (isset($_POST['password'])) {
     $password = $_POST['password'];
     if ($password == '') {
         unset($password);
     }
 }
+
 if (empty($login) or empty($password))
 {
     $login = stripslashes($login);

@@ -12,8 +12,10 @@
 <body>
 <form action="save_user.php" method="post"
 <h1>Register new user</h1><br>
-<label>Login: </label><input type="text" name="login" maxlength="15"><br>
-<label>Password: </label><input type="password" name="password" maxlength="15"><br>
+<label>Login: </label>
+<input type="text" name="login" maxlength="15"><br>
+<label>Password: </label>
+<input type="password" name="password" maxlength="15"><br>
 <button type="submit" class="btn btn-primary">Register</button>
 </form
 

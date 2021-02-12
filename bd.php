@@ -1,4 +1,4 @@
 <?php
-$db = mysql_connect("localhost", "root", "root");
+$db = mysqli_connect("localhost)
 mysql_select_db("mysql", $db);
 ?>
