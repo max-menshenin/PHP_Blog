@@ -1,4 +1,3 @@
 <?php
-$db = mysqli_connect("localhost)
-mysql_select_db("mysql", $db);
-?>
+$db = mysqli_connect_connect("localhost", "root", "root", "blog");
+echo "string";
