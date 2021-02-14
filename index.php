@@ -14,6 +14,7 @@
 
     <input type="text"><br>
     <button type="submit" class="btn btn-primary">Primary</button>
+    <textarea name="input-text"></textarea>
 </form>
 </body>
 </html>

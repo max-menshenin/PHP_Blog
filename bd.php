@@ -8,6 +8,7 @@ $conn = new mysqli($servername, $username, $pass, $db);
 if ($conn->connect_error){
     die($conn->connect_error);
 }
-$conn->query("INSERT INTO `data` (`id`, `message`) VALUES (NULL, 'testymessage') ");
-echo "string";
+$message = $_POST['input-text'];
+echo $message;
+$conn->query("INSERT INTO `data` (`id`, `message`) VALUES (NULL, '$message') ");
 ?>
