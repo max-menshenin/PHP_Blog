@@ -20,7 +20,7 @@ if ($_SESSION['user'] == 'ok'):
     <input type="text"><br>
     <button type="submit" class="btn btn-primary">Primary</button>
     <textarea name="input-text" cols="10">
-        area
+        are
     </textarea>
     <input name="login">
 </form>
