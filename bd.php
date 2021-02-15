@@ -1,4 +1,8 @@
 <?php
+session_start();
+echo $_SESSION['user'];
+
+$_SESSION['user'] = 'ok';
 $servername = "localhost";
 $username = "root";
 $pass = "root";

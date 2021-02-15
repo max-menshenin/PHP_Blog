@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="ru">
 <head>
@@ -10,11 +13,17 @@
 
 </head>
 <body>
+<?php
+if ($_SESSION['user'] == 'ok'):
+?>
 <form action="bd.php" method="post">
-
     <input type="text"><br>
     <button type="submit" class="btn btn-primary">Primary</button>
-    <textarea name="input-text"></textarea>
+    <textarea name="input-text" cols="10">
+        area
+    </textarea>
+    <input name="login">
 </form>
 </body>
+<?php endif; ?>
 </html>
