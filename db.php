@@ -1,8 +1,6 @@
 <?php
 session_start();
-echo $_SESSION['user'];
-
-$_SESSION['user'] = 'ok';
+$_SESSION['login'] = 'ok';
 $servername = "localhost";
 $username = "root";
 $pass = "root";
@@ -12,7 +10,6 @@ $conn = new mysqli($servername, $username, $pass, $db);
 if ($conn->connect_error){
     die($conn->connect_error);
 }
-$message = $_POST['input-text'];
-echo $message;
-$conn->query("INSERT INTO `data` (`id`, `message`) VALUES (NULL, '$message') ");
-?>
+
+$conn->query("SELECT FROM INTO `data` (`id`, `message`) VALUES (NULL, '$message')");
+//print_r($conn);
